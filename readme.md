@@ -35,7 +35,7 @@ The system identifies logistics bottlenecks, calculates financial losses due to 
     * **Financial Impact**: Calculates revenue at risk due to shipping delays.
     * **Interactive Dashboard**: A 2x2 Plotly grid showing spatial, temporal, and financial metrics.
 
-### Data downloaded: [Kaggle: Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+---
 
 ### Data Setup
 

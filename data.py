@@ -1,7 +1,7 @@
 import os
 import sys
 
-DESTINATION_FOLDER = 'datas'
+DESTINATION_FOLDER = 'data'
 DATASET_NAME = 'olistbr/brazilian-ecommerce'
 REQUIRED_FILES = [
     'olist_orders_dataset.csv',
@@ -60,4 +60,5 @@ def download_data():
 
 
 if __name__ == "__main__":
+
     download_data()

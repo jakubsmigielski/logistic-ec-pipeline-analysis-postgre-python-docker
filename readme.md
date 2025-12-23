@@ -13,7 +13,7 @@ The system identifies logistics bottlenecks, calculates financial losses due to 
 ![Dashboard Preview](plots/plot2.png)
 
 
-* Database: PostgreSQL 15 
+* Database: PostgreSQL 
 * ETL & Data Manipulation: Pandas, SQLAlchemy
 * Visualization: Plotly 
 * Containerization: Docker & Docker Compose
@@ -68,3 +68,4 @@ Project/
 Spin up the PostgreSQL container using Docker:
 ```bash
 docker-compose up -d
+

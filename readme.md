@@ -6,13 +6,6 @@ This project implements an automated ETL pipeline, creates a specialized Data Wa
 ### Project Overview & Dashboard
 The system identifies logistics bottlenecks, calculates financial losses due to delays, and visualizes shipping trends across 27 states.
 
-![Dashboard Preview](plots/plot1.png)
-
-
-
-![Dashboard Preview](plots/plot2.png)
-
-
 * Database: PostgreSQL 
 * ETL & Data Manipulation: Pandas, SQLAlchemy
 * Visualization: Plotly 
@@ -35,37 +28,5 @@ The system identifies logistics bottlenecks, calculates financial losses due to 
     * **Financial Impact**: Calculates revenue at risk due to shipping delays.
     * **Interactive Dashboard**: A 2x2 Plotly grid showing spatial, temporal, and financial metrics.
 
----
 
-### Data Setup
-
-The project relies on 5 CSV files from the Olist dataset (are too big to upload). You have two ways to get them:
-
-### Option A: Automated 
-Run the included helper script. It will **automatically create the `data/` folder** and download the necessary files for you.
-(Requires Kaggle API key).
-
-### Option B: Manual 
-Create a folder named `data` in the main project directory.
-
-Download the [Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) 
-
-Unzip the files and place the 5 required CSVs inside the data folder.
-
-```text
-Project/
-│
-├── data/                       
-│   ├── olist_orders_dataset.csv
-│   ├── olist_customers_dataset.csv
-│   ├── olist_order_items_dataset.csv
-│   ├── olist_geolocation_dataset.csv
-│   └── olist_sellers_dataset.csv
-
-```
-
-###  Start the Database
-Spin up the PostgreSQL container using Docker:
-```bash
-docker-compose up -d
 
